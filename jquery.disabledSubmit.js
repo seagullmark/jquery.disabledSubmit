@@ -35,6 +35,6 @@
 					}
 			});	
 
-			$(form).submit(function(){$(this).find('input[type=submit]').attr('disabled','disabled');});
+		$(form).submit(function(){$(this).find('input[type=submit]').attr('disabled','disabled');});
 	};
 })(jQuery);
