@@ -11,7 +11,7 @@ http://www.seagullmark.com/
     $('#hoge').disabledSubmit();
     $('.hoge').disabledSubmit();
 
-# notice:
+# Notice:
 
 jquery.validate.js を使っているときは、
 invalidHandler コールバックを使用してください。
