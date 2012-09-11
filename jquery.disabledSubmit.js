@@ -19,7 +19,7 @@
 			$(form).find('input[type=hidden]').each(function(){
 			
 				if($(this).attr('name') == name) return flg = false;
-				return flg = true;
+					return flg = true;
 				});
 						
 				if(flg){
