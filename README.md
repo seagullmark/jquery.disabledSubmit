@@ -3,7 +3,6 @@
 submit タイプの button 要素を disabled し、
 disabled した button 要素のパラメータを hidden パラメータに置き換えて送信します。
 
-http://www.seagullmark.com/
 
 # Examples:
 
