@@ -4,13 +4,13 @@ submit タイプの button 要素を disabled し、
 disabled した button 要素のパラメータを hidden パラメータに置き換えて送信します。
 
 
-# Examples:
+# Examples
 
     $('form').disabledSubmit();
     $('#hoge').disabledSubmit();
     $('.hoge').disabledSubmit();
 
-# Notice:
+# Notice
 
 jquery.validate.js を使用しているときは、
 invalidHandler コールバックで submit button の disabled をリムーブします。
@@ -25,6 +25,8 @@ invalidHandler コールバックで submit button の disabled をリムーブ�
 
 disabled をリムーブしないと、無効なフォームがキャンセルされた場合に再送信できなくなります。
 
-# Copyright
+# License
 
 Copyright © 2012 Masaki Nishino
+
+Licensed under the MIT License
