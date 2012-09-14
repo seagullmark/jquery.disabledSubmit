@@ -9,9 +9,9 @@
 
 		var form = $(this);
 
-		$(form).find('input[type=submit]').removeAttr('disabled');
+		form.find('input[type=submit]').removeAttr('disabled');
 	
-		$(form).find('input[type=submit]').click(function(){
+		form.find('input[type=submit]').click(function(){
 			$(this).find('.disabled-Submit').remove();
 			var name  = $(this).attr('name');
 			var value = $(this).val();
@@ -22,9 +22,9 @@
 				value: value
 			});
 			input.addClass('disabled-Submit');
-			$(form).append(input);
+			form.append(input);
 		});	
 
-		$(form).submit(function(){$(this).find('input[type=submit]').attr('disabled','disabled');});
+		form.submit(function(){$(this).find('input[type=submit]').attr('disabled','disabled');});
 	};
 })(jQuery);
