@@ -1,5 +1,5 @@
 /*
- * jQuery DisabledSubmit Plugin v1.1.0b
+ * jQuery DisabledSubmit Plugin v1.1.0c
  * 
  *
  * Copyright (c) 2012 Masaki Nishino (http://www.seagullmark.com)     
